@@ -1,12 +1,8 @@
 package com.company.car.spareParts;
 
-public class Еlectrics extends BrokenParts{
+public class Еlectrics extends DeteilwithState {
 
-    public boolean electrics;
-
-    public Еlectrics(boolean broken, boolean electrics) {
-        super(broken);
-        this.electrics = electrics;
+    public Еlectrics() {
+        super(false);
     }
-
 }

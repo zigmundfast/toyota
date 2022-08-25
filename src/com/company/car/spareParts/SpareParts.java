@@ -1,9 +1,9 @@
 package com.company.car.spareParts;
 
-public abstract class BrokenParts {
+public abstract class SpareParts {
     private boolean broken;
 
-    public BrokenParts(boolean broken) {
+    public SpareParts() {
         this.broken = broken;
     }
 

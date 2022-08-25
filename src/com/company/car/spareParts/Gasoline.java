@@ -1,11 +1,12 @@
 package com.company.car.spareParts;
 
-public class Gasoline {
+public class Gasoline extends SpareParts {
      private int levelGas;
 
 
-    public Gasoline(int levelGas) {
-        this.levelGas = levelGas;
+    public Gasoline( ) {
+        super();
+        this.levelGas = 0;
     }
 
     public int getLevelGas() {
