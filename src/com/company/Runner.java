@@ -6,7 +6,7 @@ import com.company.car.spareParts.*;
 
 public class Runner {
     public static void main(String[] args) throws StartCarException {
-        Gasoline gasoline = new Gasoline();
+        Gasoline gasoline = new Gasoline(0);
         Engine engine = new Engine();
         Еlectrics еlectrics = new Еlectrics();
         Headlights headlights = new Headlights();

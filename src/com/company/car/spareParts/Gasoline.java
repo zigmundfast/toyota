@@ -4,9 +4,9 @@ public class Gasoline extends SpareParts {
      private int levelGas;
 
 
-    public Gasoline( ) {
+    public Gasoline( int levelGas) {
         super();
-        this.levelGas = 0;
+        this.levelGas = levelGas ;
     }
 
     public int getLevelGas() {
